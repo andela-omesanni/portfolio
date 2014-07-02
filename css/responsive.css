@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 480px) {
+     
+	  nav a { padding: 2%; }
+	  nav a:hover,nav a.selected { background-color: transparent; background: none; }
+	  
+	  /* 3 * 5 = 15
+	     100% - 15% = 85%
+		 85/3 = 28.3333
+      */
+	  
+	  /******************
+	  PAGE: PORTFOLIO
+	  ******************/
+	  #gallery li {
+	     width: 40.3333%
+	  }
+	  
+	  #gallery li:nth-child(5n) {
+	     clear: left;
+	  }
+	  
+	   /******************
+	  PAGE: ABOUT
+	  ******************/
+	  
+	  .profile-photo {
+	     float: left;
+		 margin: 0 5% 80px 0;
+	   }
+}
+
+
+@media screen and (min-width: 660px) {
+     /******************
+	  HEADER
+	  ******************/
+	 
+	 nav {
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	 }
+	 
+	 
+	 #logo {
+	    float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	 }
+	 
+	 h1 {
+	   font-size: 2.5em;
+	 }
+	 h2 { font-size: 0.825em; margin-bottom: 20px; }
+	 
+	 header {
+	   border-bottom: 5px solid #599a68;
+	   margin-bottom: 60px;
+	 }
+	 
+	  /* two column layout */
+      #primary {
+	     width: 50%;
+		 float: left;
+      }
+	  
+	  #secondary {
+	     width: 40%;
+		 float: left;
+		 padding-left: 50px;
+      }
+	  
+} 
+@media screen and (max-width: 990px) {
+     nav a:hover, nav a.selected{ background-color: transparent; background: none; }
+	 nav {  padding: 0;}
+	 nav li a { padding: 4px; }
+}
