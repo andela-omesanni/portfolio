@@ -1,0 +1,273 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+   font-family: 'Oxygen', sans-serif;
+   background: url(../img/body-tail.gif)  center top repeat;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+div, header {box-sizing: border-box; }
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+  text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+
+@keyframes slide {
+   0% {
+      transform: translateX(0%); 
+   }
+   
+    50% {
+      transform: translateX(100%);
+   }
+   
+   
+   100% {
+        transform: translateX(0%);
+   }
+}
+
+/*******FOR WEBKIT BROWSERS************/
+@-webkit-keyframes slide {
+   0% {
+      -webkit-transform: translateX(0%);
+   }
+   
+    50% {
+      -webkit-transform: translateX(100%);
+   }
+   
+   
+   100% {
+        -webkit-transform: translateX(0%);
+   }
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0 10px;
+  font-weight: normal;
+}
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  margin-top: 40px;
+}
+
+nav ul {
+  list-style: none;
+ 
+}
+
+nav li {
+  display: inline-block; 
+}
+
+nav a {
+  font-weight: 800;
+  padding: 80px 15px 18px 15px;
+  
+} 
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li:nth-child(3) { clear: left; }
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 220px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+  clear: both;
+}
+
+section p, #primary p { font-size: 14px; line-height: 25px; }
+
+
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+ 
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #384047;
+  border-color: #599a68;
+  box-shadow: 0 3px 5px 0 grey;
+}
+ 
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+nav a:hover { background: white;  }
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+  background:  -moz-linear-gradient(top, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(245,247,249,1) 100%);  
+   background:  -webkit-linear-gradient(top, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(245,247,249,1) 100%);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
